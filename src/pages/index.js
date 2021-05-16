@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'gatsby';
 import { Helmet } from 'react-helmet';
 import { FaRss } from 'react-icons/fa';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 import { usePosts, useTalks, useProjects } from 'hooks';
 
@@ -94,7 +95,7 @@ const Index = ({location, data}) => {
       <div className="container">
 
         <Helmet {...helmet_settings} />
-
+        <Tabs>
           <TabList>
             <Tab>Thoughts</Tab>
             <Tab>Podcast</Tab>
@@ -105,7 +106,7 @@ const Index = ({location, data}) => {
           <TabPanel>
             <ArticleList articles={talks} />
           </TabPanel>
-       
+       </Tabs>
 
       </div>
     </Layout>
