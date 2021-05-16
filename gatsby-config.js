@@ -39,20 +39,20 @@ module.exports = {
       resolve: 'gatsby-plugin-google-marketing-platform',
       options: {
         dataLayer: {
-          gaPropertyId: 'UA-28076707-1',
-          gaOptimizeId: 'GTM-MF4ZKBR'
+          gaPropertyId: 'UA',
+          gaOptimizeId: 'GTM'
         },
         tagmanager: {
-          id: 'GTM-NJ75NM',
+          id: 'GTM',
           params: {
             gtm_cookies_win: 'x'
           }
         },
         analytics: {
-          id: 'UA-28076707-1',
+          id: 'UA-',
         },
         optimize: {
-          id: 'GTM-MF4ZKBR',
+          id: 'GTM',
         },
         includeInDevelopment: false,
       },
@@ -60,14 +60,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-webmention`,
       options: {
-        username: "www.colbyfayock.com",
+        username: "whiteseer.com",
         identity: {
-          github: "colbyfayock",
-          twitter: "colbyfayock"
+          github: "",
+          twitter: "whiteseer9"
         },
         mentions: true,
         pingbacks: true,
-        domain: "www.colbyfayock.com",
+        domain: "whiteseer.com",
         token: process.env.WEBMENTIONS_TOKEN
       }
     },

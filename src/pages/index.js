@@ -46,11 +46,11 @@ const Index = ({location, data}) => {
       },
       {
         property: 'profile:first_name',
-        content: 'Colby'
+        content: 'WhiteSeer'
       },
       {
         property: 'profile:username',
-        content: 'colbyfayock'
+        content: 'whiteseer'
       }
     ],
   };
@@ -76,7 +76,7 @@ const Index = ({location, data}) => {
             <div className="home-newsletter-content">
               <h3>Weekly Newsletter</h3>
               <p>
-                Fresh guides & tutorials weekly straight to your inbox!
+                Positive quotes from great thinkers in your inbox
               </p>
             </div>
             <div className="home-newsletter-button">
@@ -90,78 +90,28 @@ const Index = ({location, data}) => {
 
       <div className="home-content container">
 
-        <div className="home-main">
-          <div className="home-content-header">
-            <Link className="home-content-header-title" to={toAllPosts}>
-              <h2>
-                <span className="header-icon">📝</span> Latest From the Blog
-              </h2>
-            </Link>
-            <div className="home-content-header-actions">
-              <a href="https://www.colbyfayock.com/rss.xml">
-                <FaRss className="icon-rss" /> RSS
-              </a>
-            </div>
-          </div>
-          <ArticleList articles={posts} count={5} toAll={toAllPosts} labelArticles="Posts" />
-        </div>
+      <Layout location={location}>
+      <div className="container">
 
-        <div className="home-sidebar">
+        <Helmet {...helmet_settings} />
 
-          <div className="home-sidebar-section">
-            <div className="home-content-header">
-              <span className="home-content-header-title">
-                <h2>
-                  <span className="header-icon">✨</span> Featured Features
-                </h2>
-              </span>
-            </div>
-            <ArticleList articles={[
-              {
-                path: 'https://spacejelly.dev/',
-                title: 'Cosmo the Space Jellyfish Stickers',
-                category: 'Starting at $1 for a Cosmo sticker!'
-              },
-              {
-                path: 'https://cottonbureau.com/products/cosmo-the-space-jellyfish',
-                title: 'Cosmo the Space Jellyfish Tshirt',
-                category: 'Available on Cotton Bureau high quality products'
-              },
-              {
-                path: 'https://www.redbubble.com/i/t-shirt/Cosmo-the-Space-Jellyfish-by-colbyfayock/58649803.S7RYU',
-                title: 'Cosmo the Space Jellyfish on Redbubble',
-                category: 'More product options, more affordable'
-              },
-              {
-                path: '/what-i-use',
-                title: 'What I Use',
-                category: 'Audio, video, lighting, etc'
-              }
-            ]}  />
-          </div>
+        <Tabs>
+          <TabList>
+            <Tab>Thoughts</Tab>
+            <Tab>Podcast</Tab>
+          </TabList>
+          <TabPanel>
+            <ArticleList articles={posts} />
+          </TabPanel>
+          <TabPanel>
+            <ArticleList articles={talks} />
+          </TabPanel>
+        </Tabs>
 
-          <div className="home-sidebar-section">
-            <div className="home-content-header">
-              <Link className="home-content-header-title" to={toAllProjects}>
-                <h2>
-                  <span className="header-icon">💼</span> Featured Projects
-                </h2>
-              </Link>
-            </div>
-            <ArticleList articles={projects} count={5} toAll={toAllProjects} labelArticles="Projects"  />
-          </div>
+      </div>
+    </Layout>
 
-          <div className="home-sidebar-section">
-            <div className="home-content-header">
-              <Link className="home-content-header-title" to={toAllTalks}>
-                <h2>
-                  <span className="header-icon">📣</span> Recent Talks
-                </h2>
-              </Link>
-            </div>
-            <ArticleList articles={talks} count={3} toAll={toAllTalks} labelArticles="Talks"  />
-          </div>
-
+<div>
         </div>
 
       </div>
