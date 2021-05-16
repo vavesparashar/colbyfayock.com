@@ -24,7 +24,7 @@ const Footer = () => {
     })
   }
 
-  return (
+  <div>
     <div className="footer">
 
       <div className="container footer-secondary">
@@ -120,6 +120,6 @@ const Footer = () => {
       </Hidden>
     </div>
   );
-};
+  </div>};
 
 export default Footer;
