@@ -95,7 +95,6 @@ const Index = ({location, data}) => {
 
         <Helmet {...helmet_settings} />
 
-        <Tabs>
           <TabList>
             <Tab>Thoughts</Tab>
             <Tab>Podcast</Tab>
@@ -106,7 +105,7 @@ const Index = ({location, data}) => {
           <TabPanel>
             <ArticleList articles={talks} />
           </TabPanel>
-        </Tabs>
+       
 
       </div>
     </Layout>
