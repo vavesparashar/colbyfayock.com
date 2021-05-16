@@ -47,18 +47,19 @@ const Index = ({location, data}) => {
       },
       {
         property: 'profile:first_name',
-        content: 'WhiteSeer'
+        content: 'Whiteseer'
       },
       {
         property: 'profile:username',
-        content: 'whiteseer'
+        content: 'Whiteseer'
       }
     ],
   };
 
   return (
     <Layout location={location}>
-      
+      <Helmet {...helmet_settings} />
+
       {notice && (
         <div className="header-notice" onClick={() => updateNotice(false)}>
           {notice}
@@ -74,9 +75,9 @@ const Index = ({location, data}) => {
               📬
             </span>
             <div className="home-newsletter-content">
-              <h3>Daily Positive Quotes</h3>
+              <h3>Daily positive quotes in your inbox</h3>
               <p>
-                Ideas from great thinkers in your inbox. No Spam!
+                Ideas from great thinkers across via email. No spam!
               </p>
             </div>
             <div className="home-newsletter-button">
@@ -90,10 +91,8 @@ const Index = ({location, data}) => {
 
       <div className="home-content container">
 
-      <Layout location={location}>
-      <div className="container">
-
-      <Tabs>
+        <div className="home-main">
+        <Tabs>
           <TabList>
             <Tab>Thoughts</Tab>
             <Tab>Podcast</Tab>
@@ -104,12 +103,8 @@ const Index = ({location, data}) => {
           <TabPanel>
             <ArticleList articles={talks} />
           </TabPanel>
-       </Tabs>
-
-      </div>
-    </Layout>
-
-<div>
+        </Tabs>
+          <ArticleList articles={posts} count={5} toAll={toAllPosts} labelArticles="Posts" />
         </div>
 
       </div>
