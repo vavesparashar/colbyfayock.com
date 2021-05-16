@@ -8,12 +8,12 @@ import SocialIcons from 'components/SocialIcons';
 import Hidden from 'components/Hidden';
 import EmailSignup from 'components/EmailSignup';
 
-import image_resume from '../../static/assets/colby-fayock-front-end-development-web-design-resume.pdf';
+//import image_resume from '../../static/assets/colby-fayock-front-end-development-web-design-resume.pdf';
 
 const Footer = () => {
   const twitterAction = createTweetAction({
     message: [
-      `Hey @colbyfayock! What's good? 😎`
+      `Hey @whiteseer9, What's good? 😎`
     ]
   });
 
@@ -36,7 +36,7 @@ const Footer = () => {
               👨‍🚀 😎 👨‍💻
             </p>
             <p>
-              Stay cool with more Javascript, UX, and other interesting things
+              Stay connected with positivity and practical quotes
             </p>
             <ul>
               <li>
@@ -45,7 +45,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://www.youtube.com/colbyfayock?sub_confirmation=1">
+                <a href="https://www.youtube.com/whiteseer9?sub_confirmation=1">
                   <FaYoutube/> Subscribe
                 </a>
               </li>
@@ -60,7 +60,7 @@ const Footer = () => {
         <div className="content">
           <div className="row">
             <p>
-              Get updates straight to your email inbox!
+              Get daily quotes in your email inbox!
             </p>
             <p className="emoji">
               🙌 ✉️ 🙌
@@ -100,7 +100,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link to="/">
-                    &copy; Colby Fayock
+                    &copy; White Seer
                   </Link>
                 </li>
               </ul>
@@ -114,8 +114,8 @@ const Footer = () => {
       </footer>
 
       <Hidden className="h-card">
-        <a className="p-name u-url" href="https://www.colbyfayock.com" rel="me">
-          Colby Fayock
+        <a className="p-name u-url" href="https://whiteseer.com" rel="me">
+          White Seer
         </a>
         <img className="u-photo" src="https://www.colbyfayock.com/colby-fayock-bite-world.jpg" alt="Colby Fayock" />
         <p className="p-note">
