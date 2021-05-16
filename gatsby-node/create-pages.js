@@ -1,6 +1,6 @@
 const path = require("path");
 
-const hostname = 'https://www.colbyfayock.com';
+const hostname = 'https://whiteseer.com';
 
 module.exports = ({ graphql, actions }) => {
 

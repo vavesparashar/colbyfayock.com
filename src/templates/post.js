@@ -43,14 +43,14 @@ export default function Template({ location, data }) {
   });
 
   const isDev = process.env.NODE_ENV === 'development';
-  const hostname = !isDev ? 'https://www.colbyfayock.com' : '';
+  const hostname = !isDev ? 'https://whiteseer.com' : '';
   const postUrl = `${hostname}${post.path}`;
 
   const helmet_settings = {
     bodyAttributes: {
       class: `article post post-${Parameterize(post.title)}`,
     },
-    title: `${post.title} - Colby Fayock`,
+    title: `${post.title} - White Seer`,
     meta: [
       {
         name: 'description',
@@ -62,7 +62,7 @@ export default function Template({ location, data }) {
       },
       {
         property: 'og:title',
-        content: `${post.title} - Colby Fayock`,
+        content: `${post.title} - White Seer`,
       },
       {
         property: 'og:description',
@@ -78,7 +78,7 @@ export default function Template({ location, data }) {
       },
       {
         property: 'article:publisher',
-        content: 'https://www.colbyfayock.com'
+        content: 'https://whiteseer.com'
       },
       {
         property: 'article:section',
@@ -114,11 +114,11 @@ export default function Template({ location, data }) {
       },
       {
         property: 'twitter:site',
-        content: '@colbyfayock'
+        content: '@whiteseer9'
       },
       {
         property: 'twitter:creator',
-        content: '@colbyfayock'
+        content: '@whiteseer9'
       }
     ],
   };
@@ -126,7 +126,7 @@ export default function Template({ location, data }) {
 
   const twitterAction = createTweetAction({
     message: [
-      `${post.title} from @colbyfayock`,
+      `${post.title} from @whiteseer9`,
       '👏👏👏👏',
       postUrl
     ]
@@ -154,20 +154,20 @@ export default function Template({ location, data }) {
         </Hidden>
 
         <Hidden>
-          <a className="p-author h-card" href="https://colbyfayock.com">Colby Fayock</a>
-          <img className="u-photo" src="https://www.colbyfayock.com/colby-fayock-bite-world.jpg" alt="Author Colby Fayock" />
+          <a className="p-author h-card" href="https://whitesser.com">White Seer</a>
+          <img className="u-photo" src="https://whiteseer.com/Oaktree.jpg" alt="White Seer" />
         </Hidden>
 
         <Hidden>
-          <a className="u-url" href={`https://colbyfayock.com${post.path}`}>
-            { `https://colbyfayock.com${post.path}` }
+          <a className="u-url" href={`https://whiteseer.com${post.path}`}>
+            { `https://whiteseer.com${post.path}` }
           </a>
         </Hidden>
 
         <div className="article-webmentions">
           { Array.isArray(webmentions) && (
             <>
-              <h3>Join the conversation on <a href="https://twitter.com/colbyfayock">Twitter</a></h3>
+              <h3>Join the conversation on <a href="https://twitter.com/whiteseer9">Twitter</a></h3>
               <Webmentions mentions={webmentions} />
             </>
           )}

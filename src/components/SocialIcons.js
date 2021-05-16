@@ -13,43 +13,43 @@ const socialLinks = [
   {
     id: 'twitter',
     title: 'Twitter',
-    url: 'http://twitter.com/colbyfayock',
+    url: 'http://twitter.com/whiteseer9',
     Icon: FaTwitter,
   },
   {
     id: 'youtube',
     title: 'Youtube',
-    url: 'https://youtube.com/colbyfayock',
+    url: 'https://youtube.com/whiteseer9',
     Icon: FaYoutube,
   },
   {
     id: 'twitch',
     title: 'Twitch',
-    url: 'https://www.twitch.tv/colbyfayock',
+    url: 'https://www.twitch.tv/whiteseer9',
     Icon: FaTwitch,
   },
-  {
-    id: 'github',
-    title: 'GitHub',
-    url: 'http://github.com/colbyfayock',
-    Icon: FaGithub,
-  },
-  {
-    id: 'dribbble',
-    title: 'Dribbble',
-    url: 'http://dribbble.com/colbyfayock',
-    Icon: FaDribbble,
-  },
+  //{
+    //id: 'github',
+    //title: 'GitHub',
+    //url: 'http://github.com/colbyfayock',
+    //Icon: FaGithub,
+  //},
+  //{
+    //id: 'dribbble',
+    //title: 'Dribbble',
+    //url: 'http://dribbble.com/colbyfayock',
+    //Icon: FaDribbble,
+  //},
   {
     id: 'instagram',
     title: 'Instagram',
-    url: 'https://www.instagram.com/colbyfayock/',
+    url: 'https://www.instagram.com/whiteseer9/',
     Icon: FaInstagram,
   },
   {
     id: 'email',
     title: 'Email',
-    url: 'mailto:hello@colbyfayock.com',
+    url: 'mailto:hello@whiteseer.com',
     Icon: FiMail,
   }
 ];
