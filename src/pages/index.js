@@ -58,8 +58,7 @@ const Index = ({location, data}) => {
 
   return (
     <Layout location={location}>
-      <Helmet {...helmet_settings} />
-
+      
       {notice && (
         <div className="header-notice" onClick={() => updateNotice(false)}>
           {notice}
