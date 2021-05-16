@@ -7,6 +7,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import { usePosts, useTalks, useProjects } from 'hooks';
 
 import Layout from 'components/Layout';
+import Masthead from 'components/Masthead';
 import ArticleList from 'components/ArticleList';
 
 
