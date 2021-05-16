@@ -94,11 +94,6 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <a href={image_resume}>
-                    Resume
-                  </a>
-                </li>
-                <li>
                   <Link to="/">
                     &copy; White Seer
                   </Link>
