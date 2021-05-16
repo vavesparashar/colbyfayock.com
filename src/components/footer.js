@@ -70,43 +70,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <footer className="container footer-primary" role="contentinfo">
-
-        <div className="content">
-
-          <div className="row">
-
-            <div className="footer-social">
-              <SocialIcons />
-            </div>
-
-            <div className="twelvecol footer-links align-center">
-
-              <ul className="flat-top">
-                <li>
-                  <Link to="/about">
-                    About
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/all-posts">
-                    All Posts
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/">
-                    &copy; White Seer
-                  </Link>
-                </li>
-              </ul>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </footer>
+     
 
       <Hidden className="h-card">
         <a className="p-name u-url" href="https://whiteseer.com" rel="me">
