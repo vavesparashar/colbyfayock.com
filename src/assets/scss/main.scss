@@ -24,7 +24,7 @@ img {
 .row {
 
   padding: 1.5em 0;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
 
   @include mobile() {
     padding: 1em;
