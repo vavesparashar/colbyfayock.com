@@ -7,7 +7,6 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import { usePosts, useTalks, useProjects } from 'hooks';
 
 import Layout from 'components/Layout';
-import Masthead from 'components/Masthead';
 import ArticleList from 'components/ArticleList';
 
 
@@ -75,9 +74,9 @@ const Index = ({location, data}) => {
               📬
             </span>
             <div className="home-newsletter-content">
-              <h3>Weekly Newsletter</h3>
+              <h3>Daily Positive Quotes</h3>
               <p>
-                Positive quotes from great thinkers in your inbox
+                Ideas from great thinkers in your inbox. No Spam!
               </p>
             </div>
             <div className="home-newsletter-button">

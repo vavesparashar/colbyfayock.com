@@ -79,11 +79,11 @@ const TemplateWrapper = ({children, location}) => {
       },
       {
         property: 'twitter:site',
-        content: '@colbyfayock'
+        content: '@whiteseer9'
       },
       {
         property: 'twitter:creator',
-        content: '@colbyfayock'
+        content: '@whiteseer9'
       }
     ],
     link: [
