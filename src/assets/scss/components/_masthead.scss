@@ -47,24 +47,6 @@
 
   }
 
-  .cosmo-wave {
-
-    width: 32em;
-    font-size: .4em;
-    pointer-events: none;
-    touch-action: none;
-    margin-top: 5em;
-    margin-bottom: -18em;
-
-    @media all and (min-width: 600px) {
-      position: absolute;
-      top: -7em;
-      right: -1em;
-      font-size: clamp(.4em, 1.4vw, 1.2em);
-      margin: 0;
-    }
-
-  }
 
 }
 
