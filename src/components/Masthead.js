@@ -4,7 +4,7 @@ import { useSiteMetadata } from 'hooks';
 
 import Logo from 'components/Logo';
 import SocialIcons from 'components/SocialIcons';
-import CosmoWave from 'components/CosmoWave';
+
 
 const Masthead = () => {
   const { tagline } = useSiteMetadata();
@@ -19,8 +19,7 @@ const Masthead = () => {
           { tagline }
         </p>
         <SocialIcons />
-        <CosmoWave />
-      </div>
+            </div>
     </div>
   )
 }
