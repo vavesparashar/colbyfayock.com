@@ -105,7 +105,7 @@ const Index = ({location, data}) => {
             <ArticleList articles={talks} />
           </TabPanel>
         </Tabs>
-          <ArticleList articles={posts} count={5} toAll={toAllPosts} labelArticles="Posts" />
+          <ArticleList articles={pages} count={5} toAll={toAllPosts} labelArticles="Posts" />
         </div>
 
       </div>
