@@ -1,5 +1,5 @@
 ---
-template: post
+template: project
 title: You’re Allowed to Overengineer Your Blog
 date: 2020-07-21T12:42:47.100Z
 category: coding
