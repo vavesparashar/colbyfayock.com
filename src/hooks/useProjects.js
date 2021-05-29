@@ -1,21 +1,29 @@
-
-import Post from 'models/post';
-import { templateTypeFromNode } from 'lib/nodes';
-import { useNodes } from './';
+const FEATURED_PROJECTS = [
+  {
+    path: 'https://jamstackhandbook.com/',
+    title: 'Jamstack Handbook',
+    category: 'Everything you need to know about creating fast, dynamic apps with the Jamstack including 3 step-by-step tutorials'
+  },
+  {
+    path: 'https://50reactprojects.com/',
+    title: '50 Projects for React & the Static Web',
+    category: 'Free ebook with 50 project ideas'
+  },
+  {
+    path: 'https://github.com/colbyfayock/next-wordpress-starter',
+    title: 'Next.js WordPress Starter',
+    category: 'Scale WordPress to the world with Next.js'
+  },
+  {
+    path: 'https://github.com/colbyfayock/gatsby-starter-leaflet',
+    title: 'Gatsby Leaflet Starter',
+    category: 'Quickly bootstrap a mapping app with Leaflet'
+  },
+];
 
 export default function useProjects() {
-  const nodes = useNodes();
-
-  // Filter down to only the posts
-
-  const posts = nodes.filter(({ node = {} } = {}) => {
-    return templateTypeFromNode(node) === 'post';
-  });
-
-  // Map through all posts and create a new Post instance for each
-
   return {
-    posts: posts.map(({ node } = {}) => new Post(node)),
+    projects: FEATURED_PROJECTS,
     toAll: '/all-projects'
-  }
+  };
 }
