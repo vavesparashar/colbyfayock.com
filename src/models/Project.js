@@ -4,10 +4,33 @@ const DEFAULT_CATEGORY = 'updates';
 
 const CATEGORIES = [
   {
-    label: 'Spiritual',
-    value: 'spiritual',
+    label: 'Coding',
+    value: 'coding',
   },
-  
+  {
+    label: 'Graphic Design',
+    value: 'graphic-design',
+  },
+  {
+    label: 'Photography',
+    value: 'photography',
+  },
+  {
+    label: 'Theming',
+    value: 'theming',
+  },
+  {
+    label: 'UI Design',
+    value: 'ui-design',
+  },
+  {
+    label: 'Updates',
+    value: 'updates',
+  },
+  {
+    label: 'Web Design',
+    value: 'web-design',
+  },
 ];
 
 class Project {
