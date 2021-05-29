@@ -6,7 +6,7 @@ import { useProjects } from 'hooks';
 import Layout from 'components/Layout';
 import ArticleList from 'components/ArticleList';
 
-const AllPosts = ({location}) => {
+const AllProjects = ({location}) => {
 
   const { projects } = useProjects();
 
@@ -51,4 +51,4 @@ const AllPosts = ({location}) => {
 
 }
 
-export default AllPosts;
+export default AllProjects;
