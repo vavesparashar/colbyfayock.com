@@ -6,7 +6,7 @@ import getShareImage from '@jlengstorf/get-share-image';
 import { FaTwitter } from 'react-icons/fa';
 
 import Post from 'models/post';
-import Project from 'models/project';
+import Project from 'models/Project';
 import { createTweetAction, openTweet } from 'lib/social';
 
 import Layout from 'components/Layout';
