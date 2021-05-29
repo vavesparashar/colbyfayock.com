@@ -1,9 +1,9 @@
 require('dotenv').config();
 
 const siteMetadata = {
-  title: 'Grandsire',
-  tagline: 'Science of healthy life',
-  description: 'A few truths which life teaches with experience',
+  title: 'White Seer',
+  tagline: 'Collection of highest truths',
+  description: 'An attempt to explain which cannot be said',
   siteUrl: 'https://whiteseer.com'
 };
 
