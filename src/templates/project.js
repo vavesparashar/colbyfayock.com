@@ -24,7 +24,7 @@ const PostContent = ({html}) => {
 
 export default function Template({ location, data }) {
   const webmentions = data?.allWebMentionEntry?.nodes;
-  const post = new Post(data.markdownRemark);
+  const post = new Project(data.markdownRemark);
 
   const socialImage = getShareImage({
     title: post.title,
