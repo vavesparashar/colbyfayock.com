@@ -1,0 +1,20 @@
+import Post from 'models/post';
+import { templateTypeFromNode } from 'lib/nodes';
+import { useNodes } from './';
+
+export default function useExample() {
+  const nodes = useNodes();
+
+  // Filter down to only the posts
+
+  const posts = nodes.filter(({ node = {} } = {}) => {
+    return templateTypeFromNode(node) === 'post';
+  });
+
+  // Map through all posts and create a new Post instance for each
+
+  return {
+    example: posts.map(({ node } = {}) => new Post(node)),
+    toAll: '/all-example'
+  }
+}
