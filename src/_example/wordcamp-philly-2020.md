@@ -1,7 +1,8 @@
 ---
-template: page
-title: WordCamp Philly 2020
-path: /wordcamp-philly-2020
+template: example
+title: You Don't Need 
+date: 2019-07-18T13:23:58.193Z
+category: coding
 ---
 ## Talk Resources
 
