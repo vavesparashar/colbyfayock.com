@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet';
 import { FaRss } from 'react-icons/fa';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
-import { usePosts, useTalks, useProjects } from 'hooks';
+import { usePosts, useTalks, useProjects, useExample } from 'hooks';
 
 import Layout from 'components/Layout';
 import Masthead from 'components/Masthead';
