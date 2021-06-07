@@ -35,6 +35,7 @@ const Index = ({location, data}) => {
   const { posts, toAll: toAllPosts } = usePosts();
   const { projects, toAll: toAllProjects } = useProjects();
   const { talks, toAll: toAllTalks } = useTalks();
+  const { example, toAll: toAllExample } = useExample();
 
   const helmet_settings = {
     bodyAttributes: {
@@ -96,12 +97,16 @@ const Index = ({location, data}) => {
           <TabList>
             <Tab>Body</Tab>
             <Tab>Mind</Tab>
+            <Tab>Spirit</Tab>
           </TabList>
           <TabPanel>
             <ArticleList articles={posts} />
           </TabPanel>
           <TabPanel>
             <ArticleList articles={talks} />
+          </TabPanel>
+          <TabPanel>
+            <ArticleList articles={example} />
           </TabPanel>
         </Tabs>
           <ArticleList articles={posts} count={5} toAll={toAllPosts} labelArticles="Posts" />
