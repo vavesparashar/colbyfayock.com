@@ -1,7 +1,8 @@
 ---
-template: page
-title: What I Use
-path: /what-i-use
+template: example
+title: You Don't Need CSS-in-JS - Why I Use Stylesheets
+date: 2019-07-18T13:23:58.193Z
+category: coding
 ---
 Content creation is an area that I've only relatively recently started to explore. Being able to create engaging, educational content that helps others learn has been super rewarding and I've even written about [how others can overcome their fear of writing](https://www.colbyfayock.com/2020/04/overcoming-your-fear-of-writing-and-how-you-can-find-motivation/).
 
