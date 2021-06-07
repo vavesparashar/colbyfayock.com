@@ -94,8 +94,8 @@ const Index = ({location, data}) => {
         <div className="home-main">
         <Tabs>
           <TabList>
-            <Tab>Thoughts</Tab>
-            <Tab>Podcast</Tab>
+            <Tab>Body</Tab>
+            <Tab>Mind</Tab>
           </TabList>
           <TabPanel>
             <ArticleList articles={posts} />
