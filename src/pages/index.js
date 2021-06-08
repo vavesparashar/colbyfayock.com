@@ -110,7 +110,7 @@ const Index = ({location, data}) => {
             <ArticleList articles={example} />
           </TabPanel>
         </Tabs>
-          <ArticleList articles={posts} count={5} toAll={toAllPosts} labelArticles="Posts" />
+          {/* <ArticleList articles={posts} count={5} toAll={toAllPosts} labelArticles="Posts" /> */}
         </div>
 
       </div>
