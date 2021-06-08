@@ -23,6 +23,13 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        path: `${__dirname}/src/_example`,
+        name: 'markdown-pages',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
         path: `${__dirname}/src/_talks`,
         name: 'markdown-pages',
       },

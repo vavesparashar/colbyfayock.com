@@ -8,6 +8,7 @@ export default function useExample() {
   // Filter down to only the posts
 
   const posts = nodes.filter(({ node = {} } = {}) => {
+    console.log(node);
     return templateTypeFromNode(node) === 'example';
   });
 

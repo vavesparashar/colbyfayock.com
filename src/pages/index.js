@@ -36,6 +36,7 @@ const Index = ({location, data}) => {
   const { projects, toAll: toAllProjects } = useProjects();
   const { talks, toAll: toAllTalks } = useTalks();
   const { example, toAll: toAllExample } = useExample();
+  console.log(example);
 
   const helmet_settings = {
     bodyAttributes: {
