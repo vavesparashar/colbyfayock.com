@@ -117,11 +117,12 @@ const NewsletterPage = ({location}) => {
                 </ul>
               </div>
             </div>
-             .center {
-                padding: 70px 0;
-                <script async src="https://eomail5.com/form/07c39577-fcb5-11eb-96e5-06b4694bee2a.js" data-form="07c39577-fcb5-11eb-96e5-06b4694bee2a"></script>
-            
+            .center {
                 text-align: center;
+                <p>
+                <script async src="https://eomail5.com/form/07c39577-fcb5-11eb-96e5-06b4694bee2a.js" data-form="07c39577-fcb5-11eb-96e5-06b4694bee2a"></script>
+                </p>
+              
                   }
             
             <p className="newsletter-note">
