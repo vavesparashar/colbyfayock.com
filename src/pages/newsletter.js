@@ -117,7 +117,7 @@ const NewsletterPage = ({location}) => {
                 </ul>
               </div>
             </div>
-            <EmailSignup />
+            <script async src="https://eomail5.com/form/07c39577-fcb5-11eb-96e5-06b4694bee2a.js" data-form="07c39577-fcb5-11eb-96e5-06b4694bee2a"></script>
             <p className="newsletter-note">
               After signing up, you'll get an email to confirm your subscription.
               Make sure to do this or you won't get awesome stuff!

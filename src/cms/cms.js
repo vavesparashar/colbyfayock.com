@@ -42,8 +42,8 @@ init({
             widget: 'select',
             options: [
               {
-                label: 'Coding',
-                value: 'coding'
+                label: 'Works',
+                value: 'Works'
               },
               {
                 label: 'Graphic Design',

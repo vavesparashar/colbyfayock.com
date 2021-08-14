@@ -77,14 +77,14 @@ const Index = ({location, data}) => {
               📬
             </span>
             <div className="home-newsletter-content">
-              <h3>Daily positive quotes in your inbox</h3>
+              <h3>Subscribe to be part of the free experiment</h3>
               <p>
-                Ideas from great thinkers across via email. No spam!
+                One email per week discussing questions, philosophy and a few quotes. No Spam!             
               </p>
             </div>
             <div className="home-newsletter-button">
               <button>
-                Sign Up
+                Subscribe
               </button>
             </div>
           </Link>
@@ -96,9 +96,9 @@ const Index = ({location, data}) => {
         <div className="home-main">
         <Tabs>
           <TabList>
-            <Tab>Body</Tab>
-            <Tab>Mind</Tab>
-            <Tab>Spirit</Tab>
+            <Tab>Meditation</Tab>
+            <Tab>Unknown</Tab>
+            <Tab>Theory</Tab>
           </TabList>
           <TabPanel>
             <ArticleList articles={posts} />
