@@ -11,6 +11,7 @@ $fa-font-path: "assets/fonts";
 }
 
 body {
+  .inline-container {margin: 0 auto}
   color: $font-color-base;
   font-family: $font-family-base;
   margin: 0;
