@@ -117,8 +117,8 @@ const NewsletterPage = ({location}) => {
                 </ul>
               </div>
             </div>
-<P>             <script async src="https://eomail5.com/form/07c39577-fcb5-11eb-96e5-06b4694bee2a.js" data-form="07c39577-fcb5-11eb-96e5-06b4694bee2a"></script>
-</P>
+<p>             <script async src="https://eomail5.com/form/07c39577-fcb5-11eb-96e5-06b4694bee2a.js" data-form="07c39577-fcb5-11eb-96e5-06b4694bee2a"></script>
+</p>
                 
               
                  
