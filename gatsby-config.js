@@ -1,9 +1,9 @@
 require('dotenv').config();
 
 const siteMetadata = {
-  title: 'Focus',
-  tagline: 'A scientific experiment exploring human potential',
-  description: 'Focus: A scientific experiment',
+  title: 'Follow the Light',
+  tagline: 'A quest to explore the human potential',
+  description: 'Follow the Light: A Quest',
   siteUrl: 'https://whiteseer.com'
 };
 
