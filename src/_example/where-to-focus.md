@@ -1,7 +1,7 @@
 ---
 template: example
 title: Where to focus?
-date: 2019-07-18T13:23:58.193Z
+date: 2021-08-14T11:27:58.193Z
 category: works
 ---
 Science states Humans are most intelligent species on the planet. Some dare to say, in the universe. 
