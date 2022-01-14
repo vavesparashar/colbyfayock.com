@@ -4,7 +4,7 @@ template: post
 
 title: Pleasure vs Temptation
 
-date: 2022-01-021T08:35:47.100Z
+date: 2022-01-02T08:35:47.100Z
 
 category: Lessons
 
