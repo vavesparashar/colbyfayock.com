@@ -1,9 +1,9 @@
 require('dotenv').config();
 
 const siteMetadata = {
-  title: 'Follow the Light',
+  title: 'Follow The Light',
   tagline: 'A quest to explore the human potential',
-  description: 'Follow the Light: A Quest',
+  description: 'Follow The Light: A Quest',
   siteUrl: 'https://whiteseer.com'
 };
 

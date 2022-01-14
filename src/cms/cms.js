@@ -46,16 +46,16 @@ init({
                 value: 'works'
               },
               {
-                label: 'Graphic Design',
-                value: 'graphic-design'
+                label: 'Basics',
+                value: 'Basics'
               },
               {
                 label: 'Photography',
                 value: 'photography'
               },
               {
-                label: 'Theming',
-                value: 'theming'
+                label: 'Lessons',
+                value: 'Lessons'
               },
               {
                 label: 'UI Design',
