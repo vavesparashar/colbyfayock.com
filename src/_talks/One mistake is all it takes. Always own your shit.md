@@ -1,8 +1,8 @@
 ---
 template: talk
 title: One mistake is all it takes. Always own your shit
-link: 
-link_label:
+link: ''
+link_label: ''
 date: 2022-01-12T22:04:32.949Z
 category: Lessons
 ---

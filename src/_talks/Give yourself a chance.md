@@ -4,15 +4,15 @@ template: talk
 
 title: Give yourself a chance
 
-video: 
+video: ''
 
-video_embed: 
+video_embed: ''
 
-slides: 
+slides: ''
 
-link: 
+link: ''
 
-link_label: 
+link_label: ''
 
 date: 2022-01-13T20:58:47.355Z
 
