@@ -64,11 +64,11 @@ Like any other chutney, you can have it with bread, rice or just as rich favour 
 
 
 
-Also, sugar acts as a preservative so the tomato chutney can easily last 7+ days and longer in the refrigerator. 
+Also, sugar acts as a preservative so the tomato chutney can easily last 10+ days and longer in the refrigerator. 
 
 
 
-If you have any questions, feel free to ask at focus@whiteseer.com
+If you have any questions, feel free to write at focus@whiteseer.com
 
 
 
