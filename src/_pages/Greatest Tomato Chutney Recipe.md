@@ -4,10 +4,6 @@ title: Greatest Tomato Chutney Recipe
 path: /Greatest-Tomato-Chutney-Recipe
 ---
 
-## Greatest Tomato Chutney Recipe
-
-
-
 Finally inspired in love, I have decided to share one of the best tomatoes recipes from the lands of India. 
 
 A very popular dish along the great Ganga planes, the recipe differs from home to home. Maa cooks a bit differently using many spices for a rich taste.
@@ -77,8 +73,6 @@ If you have any questions, feel free to ask at focus@whiteseer.com
 
 
 Until next time, 
-
-Keep chanting the name of Mahadev, 🪷🔱
 
 हरि ॐ
 
